@@ -1,7 +1,12 @@
 package dev.danvega.sessions.session;
 
-import dev.danvega.sessions.speaker.Speaker;
+import java.util.List;
+import java.util.stream.Collectors;
 
-public record Session (String title, Speaker speaker, String url) {
+public record Session (String title, List<String> speakers) {
+
+    public String getSpeakersAsString() {
+        return speakers.stream().collect(Collectors.joining(","));
+    }
 
 }

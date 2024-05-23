@@ -21,17 +21,17 @@
                     <table class="min-w-full divide-y divide-gray-300">
                         <thead>
                         <tr>
-                            <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Name</th>
                             <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Title</th>
+                            <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">Name</th>
                         </tr>
                         </thead>
                         <tbody class="divide-y divide-gray-200">
-                        <tr th:each="s: ${sessions}">
-                            <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0">
-                                <a href="#" th:text="${s.speaker().name()}" th:href="${s.speaker().url()}">Speaker</a>
+                        <tr th:each="s: ${sessions}" th:class="${s.title().contains('Workshop')} ? 'bg-green-100'">
+                            <td class="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-0" th:text="${s.title()}">
+                                Title
                             </td>
-                            <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                <a href="#" th:text="${s.title()}" th:href="${s.url()}">Title</a>
+                            <td class="whitespace-nowrap px-3 py-4 text-sm text-gray-500" th:text='${s.getSpeakersAsString()}'>
+                                Speaker(s)
                             </td>
                         </tr>
                         </tbody>
