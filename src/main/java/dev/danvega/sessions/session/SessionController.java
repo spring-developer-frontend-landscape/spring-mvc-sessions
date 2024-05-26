@@ -4,6 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import java.util.List;
+
 @Controller
 public class SessionController {
 
@@ -12,11 +14,4 @@ public class SessionController {
     public SessionController(SessionRepository repository) {
         this.repository = repository;
     }
-
-    @GetMapping("")
-    public String index(Model model) {
-        model.addAttribute("sessions",repository.findAll());
-        return "session/index";
-    }
-
 }
