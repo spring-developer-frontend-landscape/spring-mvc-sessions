@@ -1,264 +1,105 @@
 {
   "sessions": [
     {
-      "title": "This Ain't Your Parents' Java",
-      "speakers": ["Venkat Subramaniam"]
+      "title": "What Is Spring?",
+      "speakers": [
+        "Spencer Gibb",
+        "Ryan Baxter"
+      ]
     },
     {
-      "title": "Hitting the 'refresh' button on your Spring web application",
-      "speakers": ["Stéphane Nicoll", "Brian Clozel"]
+      "title": "Spring Tools Live - All the Great New Things",
+      "speakers": [
+        "Brian Benz"
+      ]
     },
     {
-      "title": "Revving up the good old Samaritan, Spring Boot Admin",
-      "speakers": ["Jatin Makhija"]
+      "title": "Spring MVC as AWS Lambda",
+      "speakers": [
+        "Oleg Zhurakousky",
+        "Matthew Meckes"
+      ]
     },
     {
-      "title": "Distributed Scheduling with Spring Boot: the challenges & pitfalls of implementing a background job",
-      "speakers": ["Rafael Ponte"]
+      "title": "Delving into Spring Boot Netflix: Netflix's Application Framework",
+      "speakers": [
+        "Asi Bross"
+      ]
     },
     {
-      "title": "Replay production traffic locally, and know what you are breaking! [Workshop]",
-      "speakers": ["Shardul Lavekar"]
+      "title": "Does Your API Need a REST? Check Out GraphQL",
+      "speakers": [
+        "Dan Vega"
+      ]
     },
     {
-      "title": "Spring Security Architecture Principles",
-      "speakers": ["Daniel Garnier-Moiroux"]
+      "title": "Let's Explore Spring Security 6.4",
+      "speakers": [
+        "Rob Winch"
+      ]
     },
     {
-      "title": "Continuations: The magic behind virtual threads in Java",
-      "speakers": ["Balkrishna Rawool"]
+      "title": "Building and Monetizing Generative AI Plugins with Spring AI",
+      "speakers": [
+        "Denis Magda"
+      ]
     },
     {
-      "title": "Make Coding Fun with Spring and Azure",
-      "speakers": ["Adib Saikali", "Asir Selvasingh"]
+      "title": "Build GraphQL Services with Spring Boot like Netflix",
+      "speakers": [
+        "Paul Bakker"
+      ]
     },
     {
-      "title": "Build faster persistence layers with Spring Data JPA 3",
-      "speakers": ["Thorben Janssen"]
+      "title": "Efficient Containers with Spring Boot 3, Java 21 and CDS",
+      "speakers": [
+        "Sébastien Deleuze"
+      ]
     },
     {
-      "title": "Automated software refactoring with OpenRewrite and Generative AI",
-      "speakers": ["Tim te Beek"]
+      "title": "Bootiful Spring Boot",
+      "speakers": [
+        "Josh Long"
+      ]
     },
     {
-      "title": "A Spring Developers Guide to Navigating the Frontend Landscape",
-      "speakers": ["Dan Vega"]
+      "title": "Let's Generate Art with Kubernetes and Spring!",
+      "speakers": [
+        "Tiffany Jernigan"
+      ]
     },
     {
-      "title": "Dapr and Spring Boot - Solving the Challenges of Distributed Systems",
-      "speakers": ["Mauricio Salatino", "Thomas Vitale"]
+      "title": "Scaling APIs with Spring Cloud",
+      "speakers": [
+        "Luke Shannon",
+        "Spencer Gibb"
+      ]
     },
     {
-      "title": "Java Apps for the Cloud workshop: Secure, High-Performance Deployment to Kubernetes and Serverless [Workshop]",
-      "speakers": ["Dan Dobrin", "Abdel Sghiouar"]
+      "title": "Bootiful Artificial Intelligence",
+      "speakers": [
+        "Josh Long",
+        "Mark Pollack",
+        "Rod Johnson"
+      ]
     },
     {
-      "title": "Testing Spring Boot Applications Demystified [Workshop]",
-      "speakers": ["Philip Riecks"]
+      "title": "Learnings from Netflix to Effective Testing with Spring Boot",
+      "speakers": [
+        "Paul Bakker"
+      ]
     },
     {
-      "title": "Spring Framework 6.2: Core Container Revisited",
-      "speakers": ["Juergen Hoeller"]
+      "title": "Spring Modulith and I: An Apprenticeship in Team Building",
+      "speakers": [
+        "Tim Sparg"
+      ]
     },
     {
-      "title": "OpenAPI 3 and Spring-Boot 3 - What's new?",
-      "speakers": ["Badr Nass Lahsen"]
-    },
-    {
-      "title": "Mind the gap, connecting high performance systems at a leading Crypto Exchange",
-      "speakers": ["Marcos Maia", "Lars Werkman"]
-    },
-    {
-      "title": "Unit Test Your Spring Architecture With ArchUnit",
-      "speakers": ["Roland Weisleder"]
-    },
-    {
-      "title": "Going AOT: Everything you need to know about GraalVM for Java applications",
-      "speakers": ["Alina Yurenko"]
-    },
-    {
-      "title": "Why Spring Matters to Jakarta EE - and Vice Versa",
-      "speakers": ["Ivar Grimstad"]
-    },
-    {
-      "title": "Magical Beans and Mystery",
-      "speakers": ["Tiffany Jernigan", "Timo Salm"]
-    },
-    {
-      "title": "When Armeria Blooms in Spring (Boot)",
-      "speakers": ["Trustin Heuiseung Lee"]
-    },
-    {
-      "title": "Reactive Spring Boot With Coroutines and Virtual Threads [Workshop]",
-      "speakers": ["Urs Peter", "Jeroen Rosenberg"]
-    },
-    {
-      "title": "Building server-side web applications with htmx [Workshop]",
-      "speakers": ["Thomas Schuehly"]
-    },
-    {
-      "title": "Introducing Spring AI",
-      "speakers": ["Christian Tzolov", "Mark Pollack"]
-    },
-    {
-      "title": "It's all in the mix: producing production-ready apps with Spring Boot",
-      "speakers": ["Joris Kuipers"]
-    },
-    {
-      "title": "Migrating from (Spring Data) JPA to Spring Data JDBC",
-      "speakers": ["Jens Schauder"]
-    },
-    {
-      "title": "Secure, Test, Repeat: A Guide to Spring Security Integration Testing",
-      "speakers": ["Laurentiu Spilca"]
-    },
-    {
-      "title": "Platform Engineering with Spring Boot",
-      "speakers": ["Tom Hombergs"]
-    },
-    {
-      "title": "Efficient containers with Spring Boot 3, Java 21 and CDS",
-      "speakers": ["Sébastien Deleuze"]
-    },
-    {
-      "title": "GraphQL Java and Spring: The Latest Features",
-      "speakers": ["Rossen Stoyanchev"]
-    },
-    {
-      "title": "Building Event-Driven Microservices in Spring",
-      "speakers": ["Fawaz Ghali"]
-    },
-    {
-      "title": "Unlocking Java's Code Maze",
-      "speakers": ["Mihaela Gheorghe-Roman"]
-    },
-    {
-      "title": "Fundamentals of Migration Engineering with OpenRewrite [Workshop]",
-      "speakers": ["Tim te Beek"]
-    },
-    {
-      "title": "The Modern Monolith, with Spring Modulith",
-      "speakers": ["Cora Iberkleid"]
-    },
-    {
-      "title": "The Spring Data Cookbook - Delicious Recipes For Fast, Secure Data",
-      "speakers": ["Christoph Strobl"]
-    },
-    {
-      "title": "Debug your native Spring",
-      "speakers": ["Dmitry Chuyko"]
-    },
-    {
-      "title": "Making Spring Cloud Gateway your perfect API gateway solution",
-      "speakers": ["Dan Erez"]
-    },
-    {
-      "title": "Text-to-SQL: chat with a DB exploiting the Generative AI",
-      "speakers": ["John Lathouwers", "Corrado De Bari"]
-    },
-    {
-      "title": "A Passwordless Future! Passkeys for Spring Developers",
-      "speakers": ["Deepu K Sasidharan"]
-    },
-    {
-      "title": "Concerto for Java and AI - Building Production-Ready LLM Applications",
-      "speakers": ["Thomas Vitale"]
-    },
-    {
-      "title": "Improve developer experience with Spring Interface Clients",
-      "speakers": ["Olga Maciaszek-Sharma"]
-    },
-    {
-      "title": "Cracking the Code Review: from Guesswork to Automated Guidance",
-      "speakers": ["Paco van Beckhoven"]
-    },
-    {
-      "title": "Transitioning from Monolithic Architecture to Spring Modulith",
-      "speakers": ["Anyul Rivas", "Alejandro Martínez"]
-    },
-    {
-      "title": "Bootiful Spring Boot 3.x",
-      "speakers": ["Josh Long"]
-    },
-    {
-      "title": "Spring Boot & Kotlin: Pain or Gain?",
-      "speakers": ["Urs Peter"]
-    },
-    {
-      "title": "AsyncAPI & Springwolf - Automated documentation (and more)",
-      "speakers": ["Raphael De Lio"]
-    },
-    {
-      "title": "Spring Cloud AWS 3 upgrade and customisation for over 100 teams at Ocado Technology",
-      "speakers": ["Maksym Telepchuk"]
-    },
-    {
-      "title": "Event-driven autoscaling for Serverless Java",
-      "speakers": ["Daniel Oh"]
-    },
-    {
-      "title": "Implementing Domain Driven Design with Spring",
-      "speakers": ["Maciej Walkowiak"]
-    },
-    {
-      "title": "Micrometer Mastery: Unleash Advanced Observability in your JVM Apps",
-      "speakers": ["Tommy Ludwig", "Jonatan Ivanov"]
-    },
-    {
-      "title": "Spring Boot on the Edge",
-      "speakers": ["DaShaun Carter"]
-    },
-    {
-      "title": "Empowering Developers: Unveiling the Backstage Internal Developer Portal for Java Development",
-      "speakers": ["Alex Soto"]
-    },
-    {
-      "title": "Advanced Kotlin Techniques for Spring Developers",
-      "speakers": ["Pasha Finkelshteyn"]
-    },
-    {
-      "title": "Making your own Testcontainers module for fun and profit! [Workshop]",
-      "speakers": ["Oleg Šelajev", "Eddú Meléndez"]
-    },
-    {
-      "title": "Lean Spring Boot Applications for The Cloud",
-      "speakers": ["Patrick Baumgartner"]
-    },
-    {
-      "title": "Serverless Java with Spring",
-      "speakers": ["Maximilian Schellhorn", "Dennis Kieselhorst"]
-    },
-    {
-      "title": "Java meets TypeScript: full-stack web app development with Spring Boot and React",
-      "speakers": ["Marcus Hellberg"]
-    },
-    {
-      "title": "Fun with Feature Flags",
-      "speakers": ["Wim Creuwels"]
-    },
-    {
-      "title": "The developer's guide to making money in the open-source galaxy",
-      "speakers": ["Ronald Dehuysser"]
-    },
-    {
-      "title": "Creating Future-Proof Spring Applications with Event Sourcing",
-      "speakers": ["Steve Pember"]
-    },
-    {
-      "title": "Beyond Built-in: Advanced Testing Techniques for Spring Boot Applications",
-      "speakers": ["Michael Vitz"]
-    },
-    {
-      "title": "Navigating the Complexities of Service To Service Invocations: Deep And Brief Dive Into Causality",
-      "speakers": ["Nele Lea Uhlemann"]
-    },
-    {
-      "title": "Unveiling the path to Spring Boot 3 at the most important tech company you've never heard of",
-      "speakers": ["Laurentiu Marinescu"]
-    },
-    {
-      "title": "The good, the bad, the native",
-      "speakers": ["Gregorio Palamà"]
+      "title": "Micrometer Mastery: Unleash Advanced Observability in Your JVM Apps",
+      "speakers": [
+        "Jonatan Ivanov"
+      ]
     }
   ]
 }
